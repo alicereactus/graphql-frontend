@@ -1,0 +1,6 @@
+query QueryBetById($id: ID!) {
+    petById(id: $id) {
+        id
+        name
+    }
+}
